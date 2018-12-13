@@ -2,14 +2,14 @@
 
 
 
-#include <cstdio>
+#include <iostream>
 #include <chrono>
 
 
 
 class Lapse final {
     public:
-        ~Lapse()        { std::printf("%f\n", (Now() - mLapse)); fflush(stdout); }
+        ~Lapse()        { std::cout << (Now() - mLapse) << std::endl; }
         
         Lapse()         :mLapse(Now()){}
     
