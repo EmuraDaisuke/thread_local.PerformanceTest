@@ -1,5 +1,5 @@
 # thread_local.PerformanceTest
-thread_localのパフォーマンステスト
+thread_local変数アクセスのパフォーマンステスト
 
 ||Direct|Reference|
 |-|:-:|:-:|
