@@ -1,5 +1,5 @@
 # thread_local.PerformanceTest
-thread_local変数(class)アクセスのパフォーマンステスト
+thread_local変数(非POD)アクセスのパフォーマンステスト
 
 ## Windows10
 ||Direct|Reference|
